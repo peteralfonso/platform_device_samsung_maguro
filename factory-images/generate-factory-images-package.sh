@@ -18,21 +18,26 @@
 # 228551 = ITL41F
 # 235179 = ICL53F
 # 299849 = IMM76D
+# 330937 = IMM76I
+# 397360 = JRO02C
+# 398337 = JRO03C
 
-BUILD=299849
+source ../../../common/clear-factory-images-variables.sh
+BUILD=398337
 DEVICE=maguro
 PRODUCT=yakju
-VERSION=imm76d
-BOOTLOADER=primela03
-RADIO=i9250xxla02
-
+VERSION=jro03c
+SRCPREFIX=signed-
+BOOTLOADER=primelc03
+RADIO=i9250xxlf1
 source ../../../common/generate-factory-images-common.sh
 
-BUILD=299849
+source ../../../common/clear-factory-images-variables.sh
+BUILD=398337
 DEVICE=maguro
 PRODUCT=takju
-VERSION=imm76d
-BOOTLOADER=primela03
-RADIO=i9250xxla02
-
+VERSION=jro03c
+SRCPREFIX=signed-
+BOOTLOADER=primelc03
+RADIO=i9250xxlf1
 source ../../../common/generate-factory-images-common.sh
